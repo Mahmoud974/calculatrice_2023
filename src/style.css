@@ -1,0 +1,26 @@
+body{
+    background: hsl(222, 26%, 31%);
+    font-family: 'League Spartan', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* switch */
+
+.switch-toggle input {
+  position: absolute;
+  opacity: 0;
+ 
+}
+.switch-toggle input + label {
+  padding: 7px;
+  float:left;
+  
+  
+  cursor: pointer;
+}
+.switch-toggle input:checked + label {
+  background: hsl(6, 63%, 50%);
+
+}
